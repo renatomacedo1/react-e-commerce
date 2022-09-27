@@ -1,7 +1,12 @@
-import React from 'react'
+import React from "react";
+import spinner from "../assets/spinner.gif";
 
 const Loading = () => {
-  return <h4>loading element</h4>
-}
+  return (
+    <div className="section section-center">
+      <img src={spinner} alt="" />
+    </div>
+  );
+};
 
-export default Loading
+export default Loading;
