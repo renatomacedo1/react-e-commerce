@@ -11,10 +11,7 @@ const Services = () => {
             custom furniture <br />
             built only for you
           </h3>
-          <p>
-            From a selection of products and colors, the best artisans will
-            craft by hand the products you choose.
-          </p>
+          <p>Associated artisans hand craft all the products displayed.</p>
         </article>
         <div className="services-center">
           {services.map((service) => {
