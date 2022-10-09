@@ -1,13 +1,12 @@
 import React from "react";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
-import img404 from "../assets/confused-john-travolta.gif";
+//import img404 from "../assets/confused-john-travolta.gif";
 const ErrorPage = () => {
   return (
     <Wrapper className="page-100">
       <section>
-        <h1>404</h1>
-        <img src={img404} alt="" />
+        <h1>Error 404</h1>
         <h3>Sorry, the page you tried cannot be found</h3>
         <Link to="/" className="btn">
           back to home

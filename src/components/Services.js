@@ -12,10 +12,8 @@ const Services = () => {
             built only for you
           </h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus
-            unde molestiae, autem aperiam omnis asperiores voluptatem quasi
-            tempore laboriosam quaerat aliquid. Omnis ipsum quia illum
-            architecto voluptas voluptates nam tempore.
+            From a selection of products and colors, the best artisans will
+            craft by hand the products you choose.
           </p>
         </article>
         <div className="services-center">

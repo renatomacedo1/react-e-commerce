@@ -7,11 +7,7 @@ const Contact = () => {
       <div className="section-center">
         <h3>Join our newsletter and get 20% off</h3>
         <div className="content">
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel nobis
-            natus dolorem. Eaque aperiam consequatur odio fugit rem
-            exercitationem. Reprehenderit.
-          </p>
+          <p>Get the latest deals and updates on furniture by subscribing.</p>
           <form
             className="contact-form"
             action="https://formspree.io/f/mdojgewk"

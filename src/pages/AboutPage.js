@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { PageHero } from "../components";
+import { Link } from "react-router-dom";
 import aboutImg from "../assets/hero-bcg.jpeg";
 
 const AboutPage = () => {
@@ -15,10 +16,18 @@ const AboutPage = () => {
             <div className="underline"></div>
           </div>
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis a
-            tempore quas voluptatem quidem in, ipsum atque, blanditiis non
-            assumenda ipsam quam? Nobis dolores voluptas fuga ipsam quod ipsum
-            odit!
+            Hello! This store is part of my portfolio, made to develop and show
+            my React.js skills.
+          </p>
+          <p>
+            <a
+              href="https://renatomacedo1.github.io/"
+              className="btn btn-about"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              My portfolio
+            </a>
           </p>
         </article>
       </Wrapper>
@@ -42,6 +51,10 @@ const Wrapper = styled.section`
     margin: 0 auto;
     margin-top: 2rem;
     color: var(--clr-grey-5);
+  }
+  .about-btn {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
   }
   .title {
     text-align: left;

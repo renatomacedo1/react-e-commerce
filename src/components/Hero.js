@@ -13,10 +13,8 @@ const Hero = () => {
           confort zone
         </h1>
         <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. At soluta
-          laborum vel facere minima maiores cum autem non recusandae similique
-          quam temporibus laudantium ea, deserunt repellat reiciendis in dolor
-          voluptatem!
+          Design. Quality. Confort. Northern Village has the best hand made
+          products for your home.
         </p>
         <Link to="/products" className="btn btn-hero">
           shop now
